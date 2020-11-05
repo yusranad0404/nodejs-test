@@ -1,13 +1,11 @@
 {
-"name" : "nodejs_testing",
-"version" : "0.0.1",
-"description" : "Node.js automation testing",
-"author" : "Vouch",
-"main" : "index.js",
-"script" : {
-    "start": "index.js"
-    },
-    "dependencies": {
-        "express" : "4.17.1"
-    }
+  "name": "sample-node-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kumangxxx/sample-node-scripts.git",
+  "author": "Rahadian <rahadian@vouch.sg>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  }
 }
