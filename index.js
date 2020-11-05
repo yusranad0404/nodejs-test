@@ -1,5 +1,11 @@
-console.log('mock test.., 1 minute')
+var express = require(‘express’);
+var app = express();
 
-setTimeout(() => {
-    console.log('finished!')
-}, 60000)
+app.get(‘/’, function (req, res) {
+  res.send(‘Hi, this is NodeJS Dewiweb!’);
+});
+
+ app.listen(3000, function () {
+  console.log(‘apps running under port 3000!’);
+
+});
