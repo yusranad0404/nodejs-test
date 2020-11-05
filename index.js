@@ -1,12 +1,5 @@
-const express = require('express');
+console.log('mock test.., 1 minute')
 
-const PORT = 1995;
-const HOST = '0.0.0.0';
-
-const app = express();
-app.get('/', (req, res ) => {
-    res.send('TEST\n');
-});
-
-app.listen(PORT, HOST);
-console.log('Running on http://${HOST}:${PORT}');
+setTimeout(() => {
+    console.log('finished!')
+}, 60000)
