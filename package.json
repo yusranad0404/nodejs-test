@@ -6,6 +6,6 @@
   "author": "Rahadian <rahadian@vouch.sg>",
   "license": "MIT",
   "scripts": {
-    "test": "node test.js"
+    "test": "node index.js"
   }
 }
