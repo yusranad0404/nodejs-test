@@ -1,11 +1,13 @@
 {
-  "name": "sample-node-scripts",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/kumangxxx/sample-node-scripts.git",
-  "author": "Rahadian <rahadian@vouch.sg>",
-  "license": "MIT",
-  "scripts": {
-    "test": "node index.js"
+  "name": "hello-jenkins",
+  "description": "hello jenkins test app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.12.0"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
   }
 }
